@@ -1,87 +1,154 @@
-
-# 📊 Customer Behaviour Analysis   
-A complete end-to-end **Customer Behaviour Analysis** project using **Python (Pandas)**, **SQL**, and **Power BI** to uncover insights into purchasing patterns, customer segmentation, and business decision-making trends.
+# Customer Analytics & Insights | Python, SQL & Power BI
 
 ---
-## 📸 Power BI Dashboard Snapshot
-<p align="center">
-  <img src="snapshot.png" width="450">
-  <img src="insights.png" width="450">
-</p>
+## 📌 Overview
 
----
-## 📌 Table of Contents
-1. [About the Project](#about-the-project)  
-2. [Project Motivation & Goals](#project-motivation--goals)   
-3. [Tools & Technologies](#tools--technologies)  
-4. [Project Workflow](#project-workflow)  
-5. [Key Insights & Findings](#key-insights--findings)  
+Customer Analytics & Insights is an end-to-end analytics project that analyzes customer purchasing behavior, customer value, loyalty patterns, and product performance.
 
----
-
-## 📎 About the Project
-This project performs an in-depth analysis of customer data to understand purchasing patterns and behaviour. It combines **data cleaning and manipulation using Python (Pandas)**, **data querying with SQL**, and **visualization & dashboarding with Power BI**. The goal is to help stakeholders make data-driven business decisions.
-
----
-
-## 🎯 Project Motivation & Goals
-- Provide actionable insights into **customer purchasing behaviour**.  
-- Apply an integrated analytics workflow using industry-relevant tools.  
-- Demonstrate skills in **Python, SQL**, and **Power BI** within one project.  
-- Build a comprehensive dashboard to visualize patterns and trends.
-
----
-
-## 🗃 Dataset Overview
-
-| Attribute | Details |
-|------------|---------|
-| 📄 Total Records | 3,900 rows |
-| 🧩 Total Features | 19 columns |
-| 🔢 Numerical Variables | 5 continuous features |
-| 🏷️ Categorical Variables | 14 categorical features |
-
-
-
-
----
-
-## 🛠 Tools & Technologies
-- **Python (Pandas)** — Data cleaning, preprocessing, exploratory data analysis  
-- **SQL (MySQL)** — Data storage, querying, transformation  
-- **Power BI** — Interactive dashboard creation  
-- **Jupyter Notebook / Scripts** — Code environment
+The project combines Python, SQL, and Power BI to transform raw customer transaction data into actionable business insights.
 
 ---
 
 ## 🔄 Project Workflow
-1. **Data Loading & Cleaning (Python)**  
-   - Import dataset with Pandas  
-   - Handle missing values and duplicates   
 
-2. **Data Storage & Querying (SQL)**  
-   - Load cleaned data into SQL database  
-   - Write SQL queries to extract business insights  
+Raw Data
+↓
 
-3. **Visualization & Dashboard (Power BI)**  
-   - Upload cleaned data to Power BI  
-   - Create interactive visualizations  
-   - Build dashboards with filters and key metrics
+Data Cleaning & Exploration (Python)
+↓
+
+Business Analysis (SQL)
+↓
+
+Interactive Dashboard (Power BI)
+↓
+
+Business Insights & Recommendations
+
+---
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, NumPy)
+- SQL (MySQL)
+- Power BI
+- DAX
 
 ---
 
-## 📊 Key Insights & Findings
-- Top customer segments by revenue  
-- Monthly sales performance  
-- Average purchase value by category
-  
-**Revenue**: Gender & age group splits  
-**Loyalty**: Subscribers spend more; repeat buyers (>5 purchases) subscribe  
-**Products**: Top 5 rated items; top 3 per category  
-**Discounts**: Premium discount users; discount-heavy products  
-**Shipping**: Express vs Standard spend comparison
+## 🧹 Data Preparation (Python)
+
+- Loaded and explored customer transaction data using Pandas.
+- Performed data validation and quality checks.
+- Analyzed missing values and duplicate records.
+- Prepared the dataset for SQL analysis and dashboard reporting.
 
 ---
-## 👩‍💻 Author  
-**Shahid Ali**  
-*Data Analyst*
+
+## 📊 SQL Analysis
+
+### Business Overview
+- Revenue by Gender
+- Revenue by Category
+- Revenue by Age Group
+- Customer Segmentation
+
+### Customer Value Analysis
+- Subscription Impact Analysis
+- High-Value Customer Identification
+- Top Revenue Customers Ranking
+- Customer Lifetime Value (CLV)
+
+### Customer Loyalty Analysis
+- Subscription Adoption Among Repeat Buyers
+- RFM Segmentation
+- Churn Risk Analysis
+- Revenue Quartile Analysis
+
+### Product Performance Analysis
+- Best-Selling Products
+- Top-Rated Products
+- Product Revenue vs Rating Analysis
+- Discount Dependency Analysis
+---
+
+## 📈 Power BI Dashboard
+
+<p align="center">
+  <img src="snapshots.png" width="450">
+  <img src="insights.png" width="450">
+</p>
+
+
+### Executive Dashboard
+
+**KPIs**
+- Total Revenue
+- Total Customers
+- Average Order Value
+- Subscription Rate
+
+**Visuals**
+- Revenue by Category
+- Revenue by Age Group
+- Customer Segment Contribution
+- Subscription vs Non-Subscription Revenue
+- Top Products by Revenue
+- Revenue by Season
+
+### Customer & Product Insights
+
+**Visuals**
+- Top Customers by Revenue
+- Churn Risk Analysis
+- Customer Revenue Quartiles
+- Product Revenue vs Rating Analysis
+- Discount Dependency Analysis
+
+---
+
+## 🔍 Key Insights
+
+- Loyal customers contribute the largest share of revenue.
+- Subscription customers spend more on average than non-subscribers.
+- Revenue is concentrated among a small group of high-value customers.
+- Repeat buyers demonstrate stronger customer loyalty.
+- Several highly rated products present growth opportunities.
+- Some products rely heavily on discounts.
+
+---
+
+## 🚀 Skills Demonstrated
+
+### Python
+- Pandas
+- NumPy
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+
+### SQL
+- CTEs
+- Subqueries
+- Window Functions
+- Aggregations
+- Customer Segmentation
+
+### Power BI
+- DAX Measures
+- KPI Development
+- Interactive Dashboards
+- Data Modeling
+
+### Analytics
+- Customer Analytics
+- Customer Lifetime Value (CLV)
+- Churn Analysis
+- Product Analytics
+---
+
+## 👤 Author
+
+**Shahid Ali**
+
+Data Analyst | SQL | Power BI | Python | Excel
+
+GitHub: https://github.com/shahidali0101
